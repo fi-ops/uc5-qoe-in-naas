@@ -1,0 +1,345 @@
+#lateralmenu {
+    top: 0px;
+    left: 0px;
+    position: fixed;
+    height: 100%;
+    width: 40%;
+    background: #484E57;
+    overflow: auto; /* Optionally you can also use overflow: scroll; */
+    overflow-y: scroll;
+}
+body{
+  margin:0px;
+}
+#wrapalldettail {
+    top: 0px;
+    right: 0px;
+    position: fixed;
+    height: 100%;
+    width: 60%;
+    background: #FCFCEA;
+    overflow: auto;
+    text-align: center;
+}
+a:link{
+  text-decoration:none;
+  color: #FCFCEA;
+}
+a:visited{
+  color:#FCFCEA;
+}
+a:active{
+  color:red;
+}
+a:hover{
+  color: #3399FF;
+}
+#addnewfamilink {
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    height: 40px;
+    width: 80%;
+    margin: auto;
+    margin-top: 30px;
+    background:#FCFCEA;
+}
+
+
+#plusinaddfamilink {
+    -moz-border-radius-bottomleft: 10px;
+    -moz-border-radius-topleft: 10px;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+    height: 100%;
+    width: 100px;
+    background: #3399FF;
+
+}
+
+#plusinaddfamilink img {
+    height: 30px;
+    width: 30px;
+    margin-left: auto;
+    display: block;
+    margin-top: 10px;
+    margin-right: auto;
+    padding-top: 5px;
+}
+
+#txtaddfamilink {
+    margin: auto;
+    position: relative;
+    top: -38px;
+    font-size: 2em;
+    font-style: inherit;
+    left: 150px;
+
+}
+
+.wrapfamilink {
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    min-height: 150px;
+    width: 95%;
+    margin: auto;
+    margin-top: 20px;
+    background: #FFFFFF;
+}
+
+.wrapfamilink:hover {
+
+    background: #FFFFCC;
+}
+
+.pithfamilink {
+    -moz-border-radius-topleft: 10px;
+    border-top-left-radius: 10px;
+    height: 150px;
+    width: 150px;
+    display: block;
+}
+
+.titlefamilinkleft {
+    font-size: 1.2em;
+
+}
+
+.wrapshortdescriptionfamilink {
+    position: relative;
+    top: -140px;
+    left: 155px;
+    width: 70%;
+}
+
+.inputform {
+    width: 90%;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    font-size: 1.2em;
+    color: dimgrey;
+
+}
+
+.inputfilter {
+    width: 50%;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    font-size: 1.2em;
+    color: dimgrey;
+
+}
+
+#txtinputtitle {
+
+    color: dimgrey;
+    font-weight: bold;
+
+}
+
+#txtinputdescription {
+
+    color: dimgrey;
+
+}
+
+#txtinputplace {
+}
+
+#txtinputlatitude, #txtinputlongitude {
+    width: 37%;
+
+}
+
+#btnfindposition, #btnhidemap {
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    color: dimgrey;
+}
+
+#map_canvas {
+
+    width: 90%;
+    height: 700px;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    color: darkgrey;
+}
+
+#current {
+    padding-top: 25px;
+}
+
+.wraphidemap {
+    width: 95%;
+    margin-top: 10px;
+    text-align: right;
+}
+
+#datepickerinit, #datepickerend {
+    width: 40%;
+
+}
+
+#datepickerinit {
+    margin-right: 10%;
+}
+
+#blanckspace {
+    display: block;
+    width: 100%;
+    height: 20%;
+}
+
+.wrapdatetimepicker {
+
+    background: #484E57;
+    padding: 20px;
+    width: 80%;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    margin: auto;
+    margin-top: 30px;
+}
+
+.titlefild {
+    width: 90%;
+    text-align: center;
+    margin: auto;
+    color:#FCFCEA;
+    font-size: 2.1em;
+    margin-bottom: auto;
+
+}
+
+.video_canvas {
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top-left-radius: 10px;
+    padding: 40px;
+    width: 75%;
+
+    margin: auto;
+    height: 350px;
+    
+    background: darkgrey;
+}
+.btninput {
+    font-size: 1.1em;
+    font-weight: bold;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    color: dimgrey;
+}
+
+#btnsave, #btndelete {
+    margin-top: 40px;
+    font-size: 1.4em;
+    font-weight: bold;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    color: dimgrey;
+}
+
+#fileinputuploadimage {
+    text-align: left;
+    font-size: 1.4em;
+    font-weight: bold;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    color: dimgrey;
+}
+
+#inputsearch{
+    font-size: 1.4em;
+    font-weight: bold;
+    color: dimgrey;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    width: 100%;
+    margin: auto;
+
+
+}
+
+/* css for timepicker */
+.ui-timepicker-div .ui-widget-header {
+    margin-bottom: 8px;
+}
+
+.ui-timepicker-div dl {
+    text-align: left;
+}
+
+.ui-timepicker-div dl dt {
+    float: left;
+    clear: left;
+    padding: 0 0 0 5px;
+}
+
+.ui-timepicker-div dl dd {
+    margin: 0 10px 10px 45%;
+}
+
+.ui-timepicker-div td {
+    font-size: 90%;
+}
+
+.ui-tpicker-grid-label {
+    background: none;
+    border: none;
+    margin: 0;
+    padding: 0;
+}
+
+.ui-timepicker-rtl {
+    direction: rtl;
+}
+
+.ui-timepicker-rtl dl {
+    text-align: right;
+    padding: 0 5px 0 0;
+}
+
+.ui-timepicker-rtl dl dt {
+    float: right;
+    clear: right;
+}
+
+.ui-timepicker-rtl dl dd {
+    margin: 0 45% 10px 10px;
+}
+
+/*css for combobox*/
+.custom-combobox {
+    position: relative;
+    display: inline-block;
+}
+
+.custom-combobox-toggle {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin-left: -1px;
+    padding: 0;
+    /* support: IE7 */
+    *height: 1.7em;
+    *top: 0.1em;
+}
+
+.custom-combobox-input {
+    margin: 0;
+    padding: 0.3em;
+}
+
+.ui-widget {
+    text-align: left;
+    padding-left: 5%;
+}
+.ui-widget-autoplete-element{
+    width: 95%;
+    margin: auto;
+    margin-top: 20px;
+
+}
